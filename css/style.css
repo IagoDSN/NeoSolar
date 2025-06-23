@@ -1,0 +1,62 @@
+body{
+    overflow-x: hidden;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(86, 86, 86);
+    height: 90px;
+}
+header nav{
+    display: flex;
+    align-items:  center;
+    float: right;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+}
+header a{
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 5;
+    transition: 0.8s;
+}
+header a:hover{
+    background-color: rgb(255, 208, 76);
+    color: black;
+}
+.redes{
+    margin-left: 200px;
+}
+.redes img{
+    height: auto;
+    width: 50%;
+}
+.banner{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.linha{
+    height: 1px;
+    width: 95%;
+    background-color: white;
+}
+footer{
+    background-color: rgb(86, 86, 86);
+    height: 90px;
+    justify-items: center;
+    align-content: center;
+}
+footer p{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
