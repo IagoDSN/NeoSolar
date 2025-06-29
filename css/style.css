@@ -7,13 +7,25 @@ body{
 header{
     background-color: rgb(86, 86, 86);
     height: 90px;
-}
-header nav{
     display: flex;
-    align-items:  center;
-    float: right;
+    justify-content: space-between;
     align-items: center;
 }
+header nav{
+    margin-right: 15px;
+    align-content: center;
+    float: right;
+}
+header ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0;
+}
+header li{
+    display: inline;
+}
+
 .logo{
     height: 100%;
 }
@@ -24,7 +36,7 @@ header a{
     font-size: 18px;
     text-decoration: none;
     background-color: transparent;
-    padding: 5;
+    padding: 5px;
     transition: 0.8s;
 }
 header a:hover{
@@ -39,10 +51,13 @@ header a:hover{
     width: 50%;
 }
 .banner{
-    position: relative;
+    background-image: url(/imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
     height: 600px;
-    width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 .linha{
     height: 1px;
